@@ -1,0 +1,98 @@
+@media screen and (max-width: 1120px) {
+
+    .container-service .content .child {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1335px) {
+    .container-about .about {
+        display: none;
+    }
+
+    .container-about section {
+        width: 50%;
+        padding-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .container-home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-home .left {
+        align-items: center;
+    }
+
+    .container-home .left img {
+        width: 350px;
+    }
+
+
+    .container-about {
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .container-about section {
+        text-align: center;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    header .container h1 {
+        font-size: 26px;
+    }
+
+    header .container ul li {
+        font-size: 15px;
+    }
+
+    .container-home .left {
+        height: 700px;
+    }
+
+    .container-home .left h1 {
+        font-size: 40px;
+    }
+
+    .container-home .left aside {
+        width: 200px;
+    }
+
+    .container-home .right {
+        display: none;
+    }
+
+
+    .container-shop {
+        text-align: center;
+    }
+
+    .container-about aside {
+        width: auto;
+    }
+
+    .container-about aside img {
+        width: 300px;
+    }
+
+    footer .top {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .top .center1,
+    footer .top .center2,
+    footer .top .right,
+    footer .top .right1 {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
